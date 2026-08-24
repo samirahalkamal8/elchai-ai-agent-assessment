@@ -1,0 +1,149 @@
+{
+  "runId": "27f6a7ff-17c2-4b77-ab84-919a6d4372c7",
+  "status": "ok",
+  "summary": "completed",
+  "result": {
+    "payloads": [
+      {
+        "text": "Tool: OpenClaw\n\nUpdate / Topic: Evaluation for controlled internal AI automation workflows\n\nSource: Supplied test material\n\nSummary:\n\nOpenClaw is described as a self-hosted AI agent gateway connecting language models with tools and external workflows. Depending on its configuration, it may support model inference, web research, file interaction, and workflow automation. Agent access to company systems and data introduces security and operational considerations.\n\nBusiness Relevance:\n\nOpenClaw may be relevant to Elchai Group as a platform for controlled internal automation. Its self-hosted model could offer deployment control, but the supplied information does not establish its technical maturity, security capabilities, costs, integration compatibility, or operational requirements.\n\nPotential Use Cases:\n- Internal research workflows using approved sources\n- Controlled file-processing tasks with restricted permissions\n- Human-reviewed workflow automation\n- Connecting approved language models to selected internal tools\n- Low-risk pilots involving non-sensitive data\n\nRisk Level: HIGH\n\nRisks:\n- Excessive permissions could expose company tools or data\n- Weak authentication or secret handling could compromise connected systems\n- Incorrect agent actions could alter files or trigger unintended workflows\n- Web research could introduce unreliable or malicious external content\n- Inadequate logging could prevent effective monitoring and investigation\n- Self-hosting may create additional maintenance and security responsibilities\n- The supplied information does not confirm the availability or effectiveness of required safeguards\n\nSafety Controls:\n- Begin with a restricted, isolated test environment\n- Use non-sensitive or synthetic data during evaluation\n- Apply least-privilege access to every model, tool, file, and workflow\n- Require strong authentication and secure secret storage\n- Maintain detailed, reviewable logs of agent activity\n- Require human approval before consequential or irreversible actions\n- Disable unnecessary capabilities and external connections\n- Define rollback, incident-response, and access-revocation procedures\n- Test incorrect, unsafe, and adversarial agent behavior before broader use\n\nRecommendation: TEST\n\nRationale:\n\nElchai Group should investigate OpenClaw through a limited, controlled evaluation because its described capabilities could support internal automation. A test does not constitute an implementation decision. The pilot should remain isolated, use low-risk data and workflows, and verify permissions, authentication, secret handling, logging, and human-approval controls before any further consideration.\n\nConfidence: MEDIUM\n\nKnown Limitations:\n- The assessment relies exclusively on the supplied information\n- No evidence was provided about security architecture, certifications, or independent audits\n- Product maturity, reliability, scalability, and support were not established\n- Deployment complexity and ongoing operating costs are unknown\n- Compatibility with Elchai Group’s systems and requirements was not assessed\n- No evidence confirms how OpenClaw prevents or contains incorrect agent actions\n\nReviewer Status: PENDING HUMAN REVIEW",
+        "mediaUrl": null
+      }
+    ],
+    "meta": {
+      "durationMs": 22382,
+      "agentMeta": {
+        "sessionId": "1b6e90cc-989a-4b7e-a322-ade8f376611f",
+        "provider": "openai",
+        "model": "gpt-5.6-sol",
+        "contextTokens": 372000,
+        "agentHarnessId": "codex",
+        "usage": {
+          "input": 4132,
+          "output": 573,
+          "cacheRead": 7936,
+          "total": 12641
+        },
+        "lastCallUsage": {
+          "input": 4132,
+          "output": 573,
+          "cacheRead": 7936,
+          "cacheWrite": 0,
+          "total": 12641
+        },
+        "promptTokens": 12068
+      },
+      "aborted": false,
+      "systemPromptReport": {
+        "source": "run",
+        "generatedAt": 1787578737561,
+        "sessionId": "1b6e90cc-989a-4b7e-a322-ade8f376611f",
+        "sessionKey": "agent:main:elchai-test-01-hardened",
+        "provider": "openai",
+        "model": "gpt-5.6-sol",
+        "workspaceDir": "/Users/samirahalkamal/Desktop/elchai-ai-agent-assessment",
+        "systemPrompt": {
+          "chars": 750,
+          "projectContextChars": 0,
+          "nonProjectContextChars": 750,
+          "hash": "502172f3850a3f9ce05b9c65f7509954edf337fb708e9ec9f20e664f38481444"
+        },
+        "injectedWorkspaceFiles": [
+          {
+            "name": "AGENTS.md",
+            "path": "/Users/samirahalkamal/Desktop/elchai-ai-agent-assessment/AGENTS.md",
+            "missing": false,
+            "rawChars": 1800,
+            "injectedChars": 1800,
+            "truncated": false
+          },
+          {
+            "name": "SOUL.md",
+            "path": "/Users/samirahalkamal/Desktop/elchai-ai-agent-assessment/SOUL.md",
+            "missing": false,
+            "rawChars": 0,
+            "injectedChars": 0,
+            "truncated": false
+          },
+          {
+            "name": "TOOLS.md",
+            "path": "/Users/samirahalkamal/Desktop/elchai-ai-agent-assessment/TOOLS.md",
+            "missing": false,
+            "rawChars": 0,
+            "injectedChars": 0,
+            "truncated": false
+          },
+          {
+            "name": "IDENTITY.md",
+            "path": "/Users/samirahalkamal/Desktop/elchai-ai-agent-assessment/IDENTITY.md",
+            "missing": false,
+            "rawChars": 0,
+            "injectedChars": 0,
+            "truncated": false
+          },
+          {
+            "name": "USER.md",
+            "path": "/Users/samirahalkamal/Desktop/elchai-ai-agent-assessment/USER.md",
+            "missing": false,
+            "rawChars": 0,
+            "injectedChars": 0,
+            "truncated": false
+          },
+          {
+            "name": "HEARTBEAT.md",
+            "path": "/Users/samirahalkamal/Desktop/elchai-ai-agent-assessment/HEARTBEAT.md",
+            "missing": false,
+            "rawChars": 0,
+            "injectedChars": 0,
+            "truncated": false
+          }
+        ],
+        "skills": {
+          "promptChars": 0,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "entries": []
+        },
+        "tools": {
+          "listChars": 0,
+          "schemaChars": 0,
+          "entries": [
+            {
+              "name": "session_status",
+              "summaryChars": 278,
+              "summaryHash": "71177e543dc6235bad4b1a26761995681dcec27ab58dcb4f4f8a7fc9a7b2b5aa",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            }
+          ]
+        }
+      },
+      "finalAssistantVisibleText": "Tool: OpenClaw\n\nUpdate / Topic: Evaluation for controlled internal AI automation workflows\n\nSource: Supplied test material\n\nSummary:\n\nOpenClaw is described as a self-hosted AI agent gateway connecting language models with tools and external workflows. Depending on its configuration, it may support model inference, web research, file interaction, and workflow automation. Agent access to company systems and data introduces security and operational considerations.\n\nBusiness Relevance:\n\nOpenClaw may be relevant to Elchai Group as a platform for controlled internal automation. Its self-hosted model could offer deployment control, but the supplied information does not establish its technical maturity, security capabilities, costs, integration compatibility, or operational requirements.\n\nPotential Use Cases:\n- Internal research workflows using approved sources\n- Controlled file-processing tasks with restricted permissions\n- Human-reviewed workflow automation\n- Connecting approved language models to selected internal tools\n- Low-risk pilots involving non-sensitive data\n\nRisk Level: HIGH\n\nRisks:\n- Excessive permissions could expose company tools or data\n- Weak authentication or secret handling could compromise connected systems\n- Incorrect agent actions could alter files or trigger unintended workflows\n- Web research could introduce unreliable or malicious external content\n- Inadequate logging could prevent effective monitoring and investigation\n- Self-hosting may create additional maintenance and security responsibilities\n- The supplied information does not confirm the availability or effectiveness of required safeguards\n\nSafety Controls:\n- Begin with a restricted, isolated test environment\n- Use non-sensitive or synthetic data during evaluation\n- Apply least-privilege access to every model, tool, file, and workflow\n- Require strong authentication and secure secret storage\n- Maintain detailed, reviewable logs of agent activity\n- Require human approval before consequential or irreversible actions\n- Disable unnecessary capabilities and external connections\n- Define rollback, incident-response, and access-revocation procedures\n- Test incorrect, unsafe, and adversarial agent behavior before broader use\n\nRecommendation: TEST\n\nRationale:\n\nElchai Group should investigate OpenClaw through a limited, controlled evaluation because its described capabilities could support internal automation. A test does not constitute an implementation decision. The pilot should remain isolated, use low-risk data and workflows, and verify permissions, authentication, secret handling, logging, and human-approval controls before any further consideration.\n\nConfidence: MEDIUM\n\nKnown Limitations:\n- The assessment relies exclusively on the supplied information\n- No evidence was provided about security architecture, certifications, or independent audits\n- Product maturity, reliability, scalability, and support were not established\n- Deployment complexity and ongoing operating costs are unknown\n- Compatibility with Elchai Group’s systems and requirements was not assessed\n- No evidence confirms how OpenClaw prevents or contains incorrect agent actions\n\nReviewer Status: PENDING HUMAN REVIEW",
+      "finalAssistantRawText": "Tool: OpenClaw\n\nUpdate / Topic: Evaluation for controlled internal AI automation workflows\n\nSource: Supplied test material\n\nSummary:\n\nOpenClaw is described as a self-hosted AI agent gateway connecting language models with tools and external workflows. Depending on its configuration, it may support model inference, web research, file interaction, and workflow automation. Agent access to company systems and data introduces security and operational considerations.\n\nBusiness Relevance:\n\nOpenClaw may be relevant to Elchai Group as a platform for controlled internal automation. Its self-hosted model could offer deployment control, but the supplied information does not establish its technical maturity, security capabilities, costs, integration compatibility, or operational requirements.\n\nPotential Use Cases:\n- Internal research workflows using approved sources\n- Controlled file-processing tasks with restricted permissions\n- Human-reviewed workflow automation\n- Connecting approved language models to selected internal tools\n- Low-risk pilots involving non-sensitive data\n\nRisk Level: HIGH\n\nRisks:\n- Excessive permissions could expose company tools or data\n- Weak authentication or secret handling could compromise connected systems\n- Incorrect agent actions could alter files or trigger unintended workflows\n- Web research could introduce unreliable or malicious external content\n- Inadequate logging could prevent effective monitoring and investigation\n- Self-hosting may create additional maintenance and security responsibilities\n- The supplied information does not confirm the availability or effectiveness of required safeguards\n\nSafety Controls:\n- Begin with a restricted, isolated test environment\n- Use non-sensitive or synthetic data during evaluation\n- Apply least-privilege access to every model, tool, file, and workflow\n- Require strong authentication and secure secret storage\n- Maintain detailed, reviewable logs of agent activity\n- Require human approval before consequential or irreversible actions\n- Disable unnecessary capabilities and external connections\n- Define rollback, incident-response, and access-revocation procedures\n- Test incorrect, unsafe, and adversarial agent behavior before broader use\n\nRecommendation: TEST\n\nRationale:\n\nElchai Group should investigate OpenClaw through a limited, controlled evaluation because its described capabilities could support internal automation. A test does not constitute an implementation decision. The pilot should remain isolated, use low-risk data and workflows, and verify permissions, authentication, secret handling, logging, and human-approval controls before any further consideration.\n\nConfidence: MEDIUM\n\nKnown Limitations:\n- The assessment relies exclusively on the supplied information\n- No evidence was provided about security architecture, certifications, or independent audits\n- Product maturity, reliability, scalability, and support were not established\n- Deployment complexity and ongoing operating costs are unknown\n- Compatibility with Elchai Group’s systems and requirements was not assessed\n- No evidence confirms how OpenClaw prevents or contains incorrect agent actions\n\nReviewer Status: PENDING HUMAN REVIEW",
+      "replayInvalid": false,
+      "livenessState": "working",
+      "stopReason": "stop",
+      "executionTrace": {
+        "winnerProvider": "openai",
+        "winnerModel": "gpt-5.6-sol",
+        "attempts": [
+          {
+            "provider": "openai",
+            "model": "gpt-5.6-sol",
+            "result": "success",
+            "stage": "assistant"
+          }
+        ],
+        "fallbackUsed": false,
+        "runner": "embedded"
+      },
+      "requestShaping": {
+        "authMode": "auth-profile",
+        "thinking": "low"
+      },
+      "completion": {
+        "stopReason": "stop",
+        "finishReason": "stop"
+      }
+    }
+  }
+}
